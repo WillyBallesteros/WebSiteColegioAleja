@@ -1,0 +1,76 @@
+﻿
+<div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-md-9">
+            
+                <section id="portada">
+
+                    <div class="tit-portada">
+                        <h2>
+                            {{vm.articulo.categoriaNombre}}
+                        </h2>
+                    </div>
+                    <img src="imagenes/{{vm.articulo.articuloHeader}}" alt="{{vm.articulo.articuloNombre}}" class="img-responsive">
+                </section>
+                <section id="breadcrumbs" style="margin-top: 10px;">
+                    <ol class="breadcrumb">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#">{{vm.articulo.articuloNombre}}</a></li>
+                    </ol>
+                </section>
+                <article id="articulo">
+                    <h3>
+                        <i class="fa fa-university" aria-hidden="true"></i>&nbsp;
+                        {{vm.articulo.articuloNombre}}
+                    </h3>
+                    <dynamic id="contenido"></dynamic>
+                </article>
+                <div class="borde"></div>
+            
+        </div>
+
+        <div class="col-md-3" id="borde">
+            <aside id="sidebar">
+                <ul>
+                    <li>
+                        <a href="" target="_self" ng-click="vm.getArticulo(5,39)">
+                            <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                            &nbsp;&nbsp;Circulares
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self" ng-click="vm.getArticulo(1,40)">
+
+                            &nbsp;&nbsp;Galeria
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self" ng-click="vm.getArticulo(5,41)">
+                            <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                            &nbsp;&nbsp;Matrículas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self" ng-click="vm.getArticulo(5,42)">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            &nbsp;&nbsp;Asopadres
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self" ng-click="vm.getArticulo(4,43)">
+                            <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                            &nbsp;&nbsp;Club Deportivo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self" ng-click="vm.getArticulo(5,44)">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            &nbsp;&nbsp;Contáctenos
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </div><!-- /.row -->
+</div><!-- /.container -->

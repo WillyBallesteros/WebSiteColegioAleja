@@ -1,0 +1,215 @@
+/*  Bootstrap overrides */
+@font-face {
+	font-family: 'qlassik_boldregular';
+	src: url("../fonts/QlassikBold_TB.eot");
+	src: url("../fonts/QlassikBold_TB.eot?#iefix") format("embedded-opentype"),  url("../fonts/Qlassik_TB-webfont.woff") format("woff"), url("../fonts/QlassikBold_TB.ttf") format("truetype"), url("../fonts/QlassikBold_TB.svg#qlassik_boldregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+	background-color : #002978;
+	padding-bottom : 30px!important;
+	padding-top : 30px!important;
+	margin-bottom: 3px!important;
+}
+
+.jumbotron img {
+	max-height :110px!important;
+	max-width:110px!important;
+}
+
+
+
+h2 , h4 {
+	color:#fff;
+}
+
+.nav {
+	margin-bottom:-19px!important;
+}
+
+.navbar-inverse {
+	background-color:#fff;
+	border-color:#fff;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand {
+	color:#002978;
+	border-right: 2px solid #b09132;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+	font-weight:400;
+	color:#002978;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:#002978;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	font-weight:400;
+	color:#002978;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+	background-color:#0048CE;
+}
+
+.dropdown-menu > li {
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	/*background-color:#A6C5FF;*/
+	background-color: #002978;
+	color: #b09132;
+
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a {
+	border-right: 2px solid #b09132;
+}
+
+
+.carousel {
+	height:400px;
+}
+
+.carousel .item {
+	height:400px;
+}
+
+.carousel-inner > .item > img {
+	height:400px;
+}
+
+#sidebar ul li {
+	width: auto;
+	height: auto;
+	margin: 5px 0;
+	padding-left: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #002978;
+	list-style-type: none;
+	font-size: 17px;
+	border-left: 3px solid #b09132;
+	border-bottom: 3px solid #b09132;
+}
+
+#sidebar ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	width: 100%;
+
+}
+
+#sidebar ul li:hover , #sidebar ul li:hover a {
+	color: #f7d87e;
+	text-decoration: none;
+	font-size: 21px;
+}
+
+#borde {
+	
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#portada {
+	position: relative;
+	overflow: hidden
+}
+@media (min-width: 768px) {
+#portada {
+	height: 325px
+}
+}
+@media (min-width: 992px) {
+#portada {
+	height: 315px
+}
+}
+@media (min-width: 1200px) {
+#portada {
+	height: 380px
+}
+}
+#portada:before {
+	/*display: block;
+	position: absolute;
+	content: '';
+	width: auto;
+	height: 32px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(249,194,39,0.7);
+	z-index: 2*/
+}
+@media (min-width: 768px) {
+#portada:before {
+	height: 48px
+}
+}
+@media (min-width: 992px) {
+#portada:before {
+	height: 64px
+}
+}
+#portada .tit-portada {
+	position: absolute;
+	background-color: rgba(0,41,120,0.7);
+	z-index: 4;
+	padding: 10px 10px 10px 20px;
+	text-align: left;
+	left: 2%;
+	right: 50%;
+	color: white;
+	top: 5%;
+	border: 1px solid #f9c227;
+}
+#portada h2 {
+	font-family: 'qlassik_boldregular';
+	margin: 0
+}
+
+#articulo h3 {
+	color: #002978;
+	font-family: 'qlassik_boldregular';
+	font-size: 3.3em;
+	margin-top: 0;
+	margin-bottom: 20px;
+	letter-spacing: -0.02em;
+	line-height: 0.9em;
+}
+
+#breadcrums {
+   margin-top:10px; 
+}
+
+.tab-pane p {
+    margin-top:20px;
+    padding: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.nav-tabs a {
+    color:#002978;
+    font-weight:bold;
+}
+
+.tab-content #sim-himno {
+    max-width: 400px;
+}
+
